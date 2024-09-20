@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline de Postagens de Usuários</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .post-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .user-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .user-name {
+            font-weight: bold;
+        }
+        .post-image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .post-description {
+            margin-bottom: 10px;
+        }
+        .post-meta {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="post">
+            <div class="post-header">
+                <img src="/api/placeholder/50/50" alt="Avatar do Usuário" class="user-avatar">
+                <span class="user-name">João Silva</span>
+            </div>
+            <img src="/api/placeholder/800/600" alt="Imagem da postagem" class="post-image">
+            <p class="post-description">Curtindo um lindo pôr do sol na praia!</p>
+            <div class="post-meta">
+                <span>Tipo: Foto</span> | 
+                <span>Data: 18 de setembro de 2024</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <img src="/api/placeholder/50/50" alt="Avatar do Usuário" class="user-avatar">
+                <span class="user-name">Maria Oliveira</span>
+            </div>
+            <img src="/api/placeholder/800/600" alt="Imagem da postagem" class="post-image">
+            <p class="post-description">Minha nova receita de bolo de chocolate! Ficou uma delícia!</p>
+            <div class="post-meta">
+                <span>Tipo: Culinária</span> | 
+                <span>Data: 17 de setembro de 2024</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-header">
+                <img src="/api/placeholder/50/50" alt="Avatar do Usuário" class="user-avatar">
+                <span class="user-name">Carlos Santos</span>
+            </div>
+            <img src="/api/placeholder/800/600" alt="Imagem da postagem" class="post-image">
+            <p class="post-description">Explorando novos caminhos na trilha do Pico da Neblina!</p>
+            <div class="post-meta">
+                <span>Tipo: Aventura</span> | 
+                <span>Data: 16 de setembro de 2024</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
